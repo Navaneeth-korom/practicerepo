@@ -1,86 +1,48 @@
-# 🎮 Rock, Paper, Scissors – Python Game
+# Amazon Clone UI
 
-A simple command-line Rock, Paper, Scissors game written in Python. You play against the computer, and the game tracks the number of wins, losses, draws, and rounds played.
+This project is a simple **Amazon-inspired homepage UI clone** built using **HTML** and **CSS**. It recreates the look and feel of the Amazon shopping homepage with responsive design elements and styling.
 
----
+## 🚀 Features
 
-## 📌 Features
+- Responsive top navigation bar
+- Search bar with dropdown
+- Sign-in and return sections
+- Product category boxes
+- Hero banner section
+- Footer links
 
-- User vs Computer gameplay
-- Round tracking
-- Scoreboard: Wins, Losses, Draws
-- Replay option
-- Input validation and clean interface
+## 🛠️ Tech Stack
 
----
+- **HTML5**
+- **CSS3**
+- **Font Awesome** for icons
 
-## 🖥️ How to Run
+## 📁 Project Structure
 
-1. Clone this repository or download the `.py` file.
-2. Make sure you have Python installed.
-3. Run the game:
-
-```bash
-python rock_paper_scissors.py
+```
+📦 project-folder
+├── index.html
+├── styles.css
+├── box1_image.jpg to box8_image.jpg
+├── amazon_logo.png
+└── hero_image.jpg
 ```
 
----
+## 📷 Preview
 
-## 🧠 Rules
+> Add a screenshot here if you like for better visualization (optional).
 
-- **Rock beats Scissors**
-- **Scissors beats Paper**
-- **Paper beats Rock**
-- Same choice = **Draw**
+## 📝 How to Use
 
----
+1. Clone or download this repository.
+2. Open `index.html` in your browser.
+3. Customize or enhance as needed.
 
-## 📷 Example Output
+## 📌 Notes
 
-```text
-PLAY ROCK, PAPER, SCISSORS ? (y/n): y
----------- Round 1 ----------
-Rock, paper, scissors ? (r/p/s): r
-Your choice = Rock
-Computer choice = Scissors
-You won
-
-Play again? (press y) 
-press any other key to exit: y
-...
-The final score is
-Total rounds played = 3
-Your score =          2
-Computer score =      0
-No.of Draw games =    1
-You won the game
-```
+- This is a **static project**, no backend functionality is included.
+- Designed for **practice and UI demonstration purposes**.
 
 ---
 
-## 🛠 Tech Used
-
-- Python 3
-- `random` module for computer's choice
-- Command-line interface
-
----
-
-## 🚀 Future Improvements
-
-- Add GUI with Tkinter or PyGame
-- Add sound or animations
-- Best of N rounds mode
-- Save game stats to a file
-
----
-
-## 🤝 Contributing
-
-Feel free to fork the repo and submit a pull request with improvements or suggestions!
-
----
-
-## 👤 Author
-
-Made by [Navaneeth]
+Feel free to fork, customize, and build on top of this project! 🚀

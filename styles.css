@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.nav-logo:hover{
+    border: 1.5px solid white;
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+    
+}
+
+.nav-address{
+    padding: 7.5px;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+
+.address_first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.address_second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width: 100%; 
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.nav-sign-in{
+    padding: 9px 1px 9px 1px;
+}
+span{
+    font-size: 0.7rem;
+}
+
+.acc-list{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f32;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin: 15px;
+    
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9;
+    font-weight: 700;
+}
+
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 20px;
+    
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+.box{
+    /*border :2px solid black;*/
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    margin: 1rem 0 1rem;
+}
+
+.box-content{
+    margin: 0 10px 0 10px;
+}
+
+.box-content a{
+    color: #007185;
+    text-decoration: none;
+}
+
+.sign-in{
+    border: 1px solid black;
+    width:100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    
+}
+.sign-in-box{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+
+.sign-in-box p, .sign-in-box a{
+    text-decoration: none;
+    font-size: 0.85rem;
+    
+}
+
+.sign-in-button{
+    background-color: #ffd814;
+    color:black;
+    padding: 8px 100px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.bottom-panel{
+    height: 40px;
+    background-color: #222f32;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-panel a{
+    color: white;
+     text-decoration: none;
+    font-size: 0.85rem;
+    
+}
